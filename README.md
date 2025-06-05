@@ -5,8 +5,8 @@ For comments, feedback, or question please [Contact Us](mailto:Tariq.AlShoura@uc
 
 
 > [!NOTE]
-> Due to daily upload limitations of Google Drive and the dataset size (> 9 TB), some content is still being uploaded. \
-> Current upload progress 80%, expected completion date is Thursday, June 5, 2025.
+> Due to daily upload limitations of Google Drive and the dataset's total size (> 12 TB), some content is still being uploaded. \
+> Current upload progress 85%, expected completion date is Sunday, June 8, 2025.
 
 <!-- Please cite the following paper if using the dataset:
 > Tariq Al Shoura, Ali Mollaahmadi Dehaghi, Reza Razavi, Behrouz Far, and Mohammad Moshirpour. 2023. SEPE Dataset: 8K Video Sequences and Images for Analysis and Development. In Proceedings of the 14th ACM Multimedia Systems Conference (MMSys ’23), June 7–10, 2023, Vancouver, BC, Canada. doi: https://doi.org/10.1145/3587819.3592560 -->
@@ -36,9 +36,9 @@ For comments, feedback, or question please [Contact Us](mailto:Tariq.AlShoura@uc
 ___
 ## Dataset Overview
 The dataset consists of:
-- 100 clips of 10 seconds (600 frames)
-- &nbsp;&nbsp;30 clips of 30 seconds (1800 frames)
-- &nbsp;&nbsp;15 clips of 60 seconds (3600 frames)
+- 120 clips of 10 seconds (600 frames)&nbsp;&nbsp;&nbsp;(~4.11 TB)
+- &nbsp;&nbsp;40 clips of 30 seconds (1800 frames)&nbsp;(~4.15 TB)
+- &nbsp;&nbsp;30 clips of 60 seconds (3600 frames)&nbsp;()
 
 
 <br>
@@ -226,23 +226,23 @@ ___
 The full list of the histograms is available [here](histograms/)
 <p float="left">
 
-  <img src="histograms\000_10sec_histogram.png" width="49.5%" />
-  <img src="histograms\000_10sec_saturation.png" width="49.5%" />
+  <img src="histograms\10sec\000_10sec_histogram.png" width="49.5%" />
+  <img src="histograms\10sec\000_10sec_saturation.png" width="49.5%" />
 
-  <img src="histograms\004_10sec_histogram.png" width="49.5%" />
-  <img src="histograms\004_10sec_saturation.png" width="49.5%" />
+  <img src="histograms\10sec\004_10sec_histogram.png" width="49.5%" />
+  <img src="histograms\10sec\004_10sec_saturation.png" width="49.5%" />
 
-  <img src="histograms\010_10sec_histogram.png" width="49.5%" />
-  <img src="histograms\010_10sec_saturation.png" width="49.5%" />
+  <img src="histograms\10sec\010_10sec_histogram.png" width="49.5%" />
+  <img src="histograms\10sec\010_10sec_saturation.png" width="49.5%" />
 
-  <img src="histograms\013_10sec_histogram.png" width="49.5%" />
-  <img src="histograms\013_10sec_saturation.png" width="49.5%" />
+  <img src="histograms\10sec\013_10sec_histogram.png" width="49.5%" />
+  <img src="histograms\10sec\013_10sec_saturation.png" width="49.5%" />
 
-  <img src="histograms\014_10sec_histogram.png" width="49.5%" />
-  <img src="histograms\014_10sec_saturation.png" width="49.5%" />
+  <img src="histograms\10sec\014_10sec_histogram.png" width="49.5%" />
+  <img src="histograms\10sec\014_10sec_saturation.png" width="49.5%" />
 
-  <img src="histograms\015_10sec_histogram.png" width="49.5%" />
-  <img src="histograms\015_10sec_saturation.png" width="49.5%" />
+  <img src="histograms\10sec\015_10sec_histogram.png" width="49.5%" />
+  <img src="histograms\10sec\015_10sec_saturation.png" width="49.5%" />
 
 </p>
 
