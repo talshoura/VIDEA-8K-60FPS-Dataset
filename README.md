@@ -4,10 +4,10 @@ Please feel free to [**view and download the dataset here**](https://drive.googl
 For comments, feedback, or question please [Contact Us](mailto:Tariq.AlShoura@ucalgary.ca?subject=Inquiry%20about%20the%20SEPE%208K%20Dataset) at: [Tariq.AlShoura@ucalgary.ca](mailto:Tariq.AlShoura@ucalgary.ca?subject=Inquiry%20about%20the%20SEPE%208K%20Dataset)
 
 
-> [!NOTE]
+<!-- > [!NOTE]
 > Due to daily upload limitations of Google Drive and the dataset's total size (> 13 TB), some content is still being uploaded. \
 > Current upload progress 96.32%, expected completion date is Wednesday, June 11, 2025.
-> Remaining items (videos 23_60_8K.mp4 -> 29_60_8K.mp4)
+> Remaining items (videos 23_60_8K.mp4 -> 29_60_8K.mp4) -->
 
 <!-- Please cite the following paper if using the dataset:
 > Tariq Al Shoura, Ali Mollaahmadi Dehaghi, Reza Razavi, Behrouz Far, and Mohammad Moshirpour. 2023. SEPE Dataset: 8K Video Sequences and Images for Analysis and Development. In Proceedings of the 14th ACM Multimedia Systems Conference (MMSys ’23), June 7–10, 2023, Vancouver, BC, Canada. doi: https://doi.org/10.1145/3587819.3592560 -->
