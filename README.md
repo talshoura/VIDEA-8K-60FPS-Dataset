@@ -176,10 +176,10 @@ ffmpeg -hwaccel cuda -hwaccel_output_format cuda \
 
 <p float="left">
 
-  <img src="assets/vmaf_distribution_all.png" width="24.5%" />
-  <img src="assets/ssim_distribution_all.png" width="24.5%" /> 
-  <img src="assets/luma_psnr_distribution_all.png" width="24.5%" />
-  <img src="assets/chroma_psnr_distribution_all.png" width="24.5%" />
+  <img src="assets/vmaf_distribution_all.png" width="23%" height="100%"/>
+  <img src="assets/ssim_distribution_all.png" width="23%" /> 
+  <img src="assets/luma_psnr_distribution_all.png" width="23%" />
+  <img src="assets/chroma_psnr_distribution_all.png" width="25%"  height="100%"/>
 
 </p>
 
