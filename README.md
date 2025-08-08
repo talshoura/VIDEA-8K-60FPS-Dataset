@@ -40,7 +40,7 @@ ___
 The dataset consists of:
 - 120 clips of 10 seconds (600 frames)&nbsp;&nbsp;&nbsp;(~4.11 TB)
 - &nbsp;&nbsp;40 clips of 30 seconds (1800 frames)&nbsp;(~4.15 TB)
-- &nbsp;&nbsp;30 clips of 60 seconds (3600 frames)&nbsp;(~5.55 TB)
+- &nbsp;&nbsp;30 clips of 60 seconds (3600 frames)&nbsp;(~5.77 TB)
 
 
 <br>
@@ -193,7 +193,7 @@ ___
 
 ### Spatial and Temporal Perceptual Information Distribution of the Dataset's Videos.
 ![SI_TI](assets/comparison_main_SI_TI.png)
-*__Figure 1.__ Spatial and Temporal Information Distribution of the proposed dataset compare to the [SEPE Dataset](https://github.com/talshoura/SEPE-8K-Dataset)*
+*__Figure 1.__ Spatial and Temporal Information Distribution of the proposed dataset compared to the [SEPE Dataset](https://github.com/talshoura/SEPE-8K-Dataset)*
 
 [Back to Top](#idtext)
 ___
@@ -201,7 +201,7 @@ ___
 
 ### Average Motion Distribution of the Dataset's Videos.
 ![Mot_X_Y](assets/comparison_main_AvgMotionXAxis_AvgMotionYAxis.png)
-*__Figure 2.__ Average Motion Distribution Distribution of the proposed dataset compare to the [SEPE Dataset](https://github.com/talshoura/SEPE-8K-Dataset)*
+*__Figure 2.__ Average Motion Distribution Distribution of the proposed dataset compared to the [SEPE Dataset](https://github.com/talshoura/SEPE-8K-Dataset)*
 
 [Back to Top](#idtext)
 ___
@@ -209,7 +209,7 @@ ___
 
 ### Contrast and Colorfulness Distribution of the Dataset's Videos.
 ![Cont_Color](assets/comparison_main_Contrast_Colorfulness.png)
-*__Figure 3.__ Spatial and Temporal Information Distribution of the proposed dataset compare to the [SEPE Dataset](https://github.com/talshoura/SEPE-8K-Dataset)*
+*__Figure 3.__ Spatial and Temporal Information Distribution of the proposed dataset compared to the [SEPE Dataset](https://github.com/talshoura/SEPE-8K-Dataset)*
 
 [Back to Top](#idtext)
 ___
@@ -217,7 +217,7 @@ ___
 
 ### Blockiness and Sharpness Distribution of the Dataset's Videos.
 ![Blk_Shrp](assets/comparison_main_Blockiness_Sharpness.png)
-*__Figure 4.__ Spatial and Temporal Information Distribution of the proposed dataset compare to the [SEPE Dataset](https://github.com/talshoura/SEPE-8K-Dataset)*
+*__Figure 4.__ Spatial and Temporal Information Distribution of the proposed dataset compared to the [SEPE Dataset](https://github.com/talshoura/SEPE-8K-Dataset)*
 
 [Back to Top](#idtext)
 ___
@@ -293,7 +293,7 @@ The following Python packages are required to run the clustering and dataset spl
 pip install pandas scikit-learn umap-learn matplotlib
 ```
 
-Please refer to [Train_Test_Split](Train_Test_Split/) for the code and csv file.
+Please refer to [train_test_split/](train_test_split/) for the code and csv files.
 
 [Back to Top](#idtext)
 ___
