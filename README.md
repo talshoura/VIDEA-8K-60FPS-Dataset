@@ -53,12 +53,24 @@ The main dataset directory is broken down as:
 └───10sec  --  <i>contains the 10s videos subset <a href="https://drive.google.com/drive/folders/1QiggOsBF7lcFUIcQ3eBq3OuXVvM9xrbW">here</a></i>
 │   │
 │   └───Analysis  --  <i>Per-frame metric outputs <a href="https://drive.google.com/drive/folders/1XwcdjBjEWPELX_rw3XXrnZgFqemSZfoI">here</a></i>
-│   |   │   
-│   |   │   000_10sec_8K_vid_cmplx.csv  -- <i>pre-frame complexity analysis of 000_10s</i>
-│   |   │   000_10sec_8K_vmaf.csv       -- <i>encoding quality evalutation of 000_10s</i>
-│   |   │   001_10sec_8K_vid_cmplx.csv
-│   |   │   001_10sec_8K_vmaf.csv
-│   |   │   ...
+│   |   │
+|   |   └───encoding_quality  -- <i>encoding quality evalutation of 10s 8K 60fps video files</i>
+|   |   |   |
+│   |   │   |   000_10sec_8K_enc_qual.csv   
+│   |   │   |   001_10sec_8K_enc_qual.csv
+│   |   │   |   ...
+│   |   │
+|   |   └───histograms  -- <i>histogram and hue analysis of 10s 8K 60fps video files</i>
+|   |   |   |
+│   |   │   |   000_10sec_8K_vid_cmplx.csv
+│   |   │   |   000_10sec_8K_vmaf.csv
+│   |   │   |   ...
+│   |   │
+|   |   └───vido_complixity  -- <i>pre-frame complexity analysis of 10s 8K 60fps video files</i>
+|   |   |   |
+│   |   │   |   000_10sec_8K_vmaf.csv
+│   |   │   |   001_10sec_8K_vmaf.csv
+│   |   │   |   ...
 │   |
 │   └───Samples  --  <i>4K mid-quality frames extracted for quick viewing <a href="https://drive.google.com/drive/folders/1h517WOmdaxneH3WlYsstz3urgPDYCTfP">here</a></i>
 │   |   │   
@@ -90,10 +102,6 @@ The main dataset directory is broken down as:
     │
     └───Analysis  --  <i>Per-frame metric outputs <a href="https://drive.google.com/drive/folders/1BapYlETMXuxh_qJICw7Drc0SwGeMHe18">here</a></i>
     |   │   
-    |   │   000_10sec_8K_vid_cmplx.csv  -- <i>pre-frame complexity analysis of 000_10s</i>
-    |   │   000_10sec_8K_vmaf.csv       -- <i>encoding quality evalutation of 000_10s</i>
-    |   │   001_10sec_8K_vid_cmplx.csv
-    |   │   001_10sec_8K_vmaf.csv
     |   │   ...
     │
     └───Samples  --  <i>4K mid-quality frames extracted for quick viewing <a href="https://drive.google.com/drive/folders/1ZvdrjsOs_YD0sELpUXeTSGrSc_8MbARz">here</a></i>
@@ -192,7 +200,8 @@ ___
 ## Dataset Characteristics 
 
 ### Spatial and Temporal Perceptual Information Distribution of the Dataset's Videos.
-![SI_TI](assets/comparison_main_SI_TI.png)
+<img src="assets/comparison_main_SI_TI.png" width="49.5%" />
+
 *__Figure 1.__ Spatial and Temporal Information Distribution of the proposed dataset compared to the [SEPE Dataset](https://github.com/talshoura/SEPE-8K-Dataset)*
 
 [Back to Top](#idtext)
@@ -200,7 +209,8 @@ ___
 <br>
 
 ### Average Motion Distribution of the Dataset's Videos.
-![Mot_X_Y](assets/comparison_main_AvgMotionXAxis_AvgMotionYAxis.png)
+<img src="assets/comparison_main_AvgMotionXAxis_AvgMotionYAxis.png" width="49.5%" />
+
 *__Figure 2.__ Average Motion Distribution Distribution of the proposed dataset compared to the [SEPE Dataset](https://github.com/talshoura/SEPE-8K-Dataset)*
 
 [Back to Top](#idtext)
@@ -208,7 +218,8 @@ ___
 <br>
 
 ### Contrast and Colorfulness Distribution of the Dataset's Videos.
-![Cont_Color](assets/comparison_main_Contrast_Colorfulness.png)
+<img src="assets/comparison_main_Contrast_Colorfulness.png" width="49.5%" />
+
 *__Figure 3.__ Spatial and Temporal Information Distribution of the proposed dataset compared to the [SEPE Dataset](https://github.com/talshoura/SEPE-8K-Dataset)*
 
 [Back to Top](#idtext)
@@ -216,7 +227,8 @@ ___
 <br>
 
 ### Blockiness and Sharpness Distribution of the Dataset's Videos.
-![Blk_Shrp](assets/comparison_main_Blockiness_Sharpness.png)
+<img src="assets/comparison_main_Blockiness_Sharpness.png" width="49.5%" />
+
 *__Figure 4.__ Spatial and Temporal Information Distribution of the proposed dataset compared to the [SEPE Dataset](https://github.com/talshoura/SEPE-8K-Dataset)*
 
 [Back to Top](#idtext)
@@ -225,7 +237,7 @@ ___
 
 
 ### Samples of the Dataset Histogram
-The full list of the histograms is available [here](histograms/)
+The full list of the histograms is available [here](histograms/) as images and in the database as csv files
 <p float="left">
 
   <img src="histograms\10sec\000_10sec_histogram.png" width="49.5%" />
