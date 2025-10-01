@@ -66,7 +66,7 @@ The main dataset directory is broken down as:
 │   |   │   |   000_10sec_8K_vmaf.csv
 │   |   │   |   ...
 │   |   │
-|   |   └───vido_complixity  -- <i>pre-frame complexity analysis of 10s 8K 60fps video files</i>
+|   |   └───video_complixity  -- <i>pre-frame complexity analysis of 10s 8K 60fps video files</i>
 |   |   |   |
 │   |   │   |   000_10sec_8K_vmaf.csv
 │   |   │   |   001_10sec_8K_vmaf.csv
