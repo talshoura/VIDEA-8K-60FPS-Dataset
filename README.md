@@ -13,6 +13,18 @@ For comments, feedback, or question please [Contact Us](mailto:Tariq.AlShoura@uc
 > Tariq Al Shoura, Ali Mollaahmadi Dehaghi, Reza Razavi, and Mohammad Moshirpour. 2025. VIDEA-8K-60FPS Dataset: 8K 60FPS Video Sequences for Analysis and Development. In Proceedings of the 33rd ACM International Conference on Multimedia (MM ’25), October 27–31, 2025, Dublin, Ireland.
 ACM, New York, NY, USA, 7 pages. https://doi.org/10.1145/3746027.3758278
 
+<br>
+
+### Please checkout the [**VIDEA-8K-60FPS-Dublin here**](https://github.com/talshoura/VIDEA-8K-60FPS-Dublin) :
+> **GitHub:** [https://github.com/talshoura/VIDEA-8K-60FPS-Dublin](https://github.com/talshoura/VIDEA-8K-60FPS-Dublin) <br>
+<!-- > > **Paper:** https://doi.org/10.1145/3746027.3758278 -->
+
+### Also checkout the [**SEPE 8K Video Dataset here**](https://github.com/talshoura/SEPE-8K-Dataset) :
+> **GitHub:** [https://github.com/talshoura/SEPE-8K-Dataset](https://github.com/talshoura/SEPE-8K-Dataset) <br>
+> **Paper:** [https://doi.org/10.1145/3587819.3592560](https://doi.org/10.1145/3587819.3592560)
+
+<br><br>
+
 ## Table of Contents
 - [Dataset Overview](#dataset-overview)
    * [Videos Samples Preview](#videos-samples-preview)
